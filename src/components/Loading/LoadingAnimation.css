@@ -1,0 +1,20 @@
+.loading-container {
+    width: 100px; /* Chiều rộng của vòng tròn */
+    height: 100px; /* Chiều cao của vòng tròn */
+    position: fixed; /* Sử dụng fixed để đặt vị trí theo tọa độ của cửa sổ trình duyệt */
+    top: 50%; /* Đặt top ở giữa màn hình */
+    left: 50%; /* Đặt left ở giữa màn hình */
+    transform: translate(-50%, -50%); /* Dịch chuyển vòng tròn để căn giữa */
+  }
+  
+  .loading-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Tạo thành vòng tròn */
+    background: conic-gradient(#007bff 0%, transparent 0%); /* Tạo hiệu ứng lấp dần ban đầu */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: background 3s; /* Sử dụng transition để tạo hiệu ứng lấp dần */
+  }
+  

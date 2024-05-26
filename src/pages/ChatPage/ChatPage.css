@@ -1,0 +1,105 @@
+
+.chatbar-container{
+    display: flex;
+    top: 520px;
+    left: 20px;
+    width: 96%;
+    height: 50px;
+    position: fixed;
+}
+.chatbar-input {
+    align-self: center;
+    width: 92%;
+    /* width: 844px; */
+    height: 30px;
+    padding: 8px;
+    border: 1.4px solid #000;
+    /* border-radius: 18px; */
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    font-size: 20px;
+}
+.chatbar-icon{
+    align-self: center;
+    height: 60px;
+    width: auto;
+    margin-left: 18px;
+}
+.submit-form{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 20px;
+}
+
+.submit-form-context{
+    border: 2px solid;
+    width: 80vw;
+    height: 80px;
+    border-radius: 16px;
+    padding: 8px 8px 8px 8px;
+    font-size: 20px;
+}
+.submit-form-context-button{
+    padding: 10px 40px 10px 40px;
+    background: red;
+    height: 41px;
+    border-radius: 21px;
+    margin-left: 38px;
+}
+
+.submit-form-context-button:hover{
+    padding: 10px 40px 10px 40px;
+    background: red;
+    opacity: 0.7;
+    cursor: pointer;
+    height: 41px;
+    border-radius: 21px;
+    margin-left: 38px;
+}
+
+.submit-form-context-button:disabled,
+.submit-form-context-button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.chat-response-container{
+    position: fixed;
+    height: 56%;
+    width: 100%;
+    top: 146px;
+    flex-flow: wrap;
+    overflow: scroll;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    /* height: 85%; */
+}
+.system-response-item-container{
+    display: flex;
+    flex-direction: column;
+}
+.system-response-item-question{
+    align-self: flex-start;
+    margin-left: 48px;
+    margin-right: 134px;
+
+}
+
+.system-response-item-answer{
+    margin-right: 48px;
+    align-self: flex-end;
+    margin-left: 134px;
+}
+.spiner-responding-container{
+    position: fixed;
+    top: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

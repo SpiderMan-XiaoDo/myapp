@@ -1,0 +1,24 @@
+
+.chatbar-container{
+    display: flex;
+    top: 81%;
+    left: 20px;
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+}
+.chatbar-input {
+    align-self: center;
+    width: 844px;
+    height: 60px;
+    padding: 8px;
+    border: 2px solid #000;
+    border-radius: 18px;
+    font-size: 20px;
+}
+.chatbar-icon{
+    align-self: center;
+    height: 60px;
+    width: auto;
+    margin-left: 18px;
+}

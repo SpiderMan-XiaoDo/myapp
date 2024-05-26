@@ -1,0 +1,33 @@
+.begins1-container{
+    padding-top: 5%;
+}
+.begins1-logo{ 
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 60px;
+}
+.overlay {
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0;
+    left: 0;
+    width: 100%; /* Chiều rộng 100% */
+    height: 100%; /* Chiều cao 100% */
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền với độ mờ */
+    z-index: 999; /* Đảm bảo overlay nằm trên mọi phần tử khác */
+  }
+  
+  .content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Đặt chiều rộng là 100% */
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
