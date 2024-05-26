@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Triển khai mô hình PhoBERT cho ứng dụng trả lời câu hỏi trong tiếng Việt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Respository này sẽ hướng dẫn cách triển khai ứng dụng trả lời câu hỏi cho tiếng Việt ở phía FE bằng cách sử dụng Framework ReactJS
 
-In the project directory, you can run:
+## Tóm tắt
+Dự án này được hoàn thành bởi Nguyễn Luôn Mong Đổ, sinh viên ngành CNTT trường Đại Học Khoa Học Huế.
 
-### `npm start`
+Trong dự án này, tôi sẽ trình bày cách triển khai ứng dụng trả lời câu hỏi cho tiếng Việt bằng FrameWork ReactJS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Quá trình cài đặt, thiết lập môi trường
+1. Cài đặt môi trường phía BE:
+```
+    git clone https://github.com/SpiderMan-XiaoDo/KhoaLuanTotNghiep.git
+```
+Tham khảo cách để thiết lập môi trường phía BE tại đường dẫn: https://github.com/SpiderMan-XiaoDo/KhoaLuanTotNghiep.git
 
-### `npm test`
+2. Cài đặt môi trường phía FE:
+```
+    git clone https://github.com/SpiderMan-XiaoDo/myapp.git
+```
+3. Cài đặt các gói, thư viện:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd myapp
+```
+```
+npm install
+```
+4. Thực hiện triển khai ứng dụng:
 
-### `npm run build`
+```
+npm start
+```
+## Kết quả xây dựng ứng dụng:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Màn hình khi truy cập ứng dụng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src = "assets\login.png" width = 75%>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src = "assets\typepaname.png" width = 75%>
 
-### `npm run eject`
+2. Màn hình trò chuyện của người dùng
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src = "assets\chat.png" width = 75%>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src ="assets\respone1.png" width=75%>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
