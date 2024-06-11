@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import BeginPage from './pages/BeginPage';
 import Login1 from './pages/Login1';
 import WorldMap from './pages/WorldMapPage';
+import DropFile from './pages/DropFile';
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
           <Route path = "/login" element = {<LoginPage/>}/>
           <Route path='/chatpage' element= {<ChatPage/>}/>
           <Route path ='/worldmap' element ={<WorldMap/>}/>
+          <Route path='/dropfile' element= {<DropFile/>}/>
         </Routes>
       </div>
     </Router>

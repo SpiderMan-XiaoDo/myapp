@@ -1,11 +1,22 @@
-
+.phobert-logo-container{
+    height: 22vh;
+}
+.phobert-logo{
+    margin-top: 8px;
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
 .chatbar-container{
     display: flex;
-    top: 520px;
-    left: 20px;
-    width: 96%;
     height: 50px;
+    align-content: end;
     position: fixed;
+    left: 50vw;
+    width: 48vw;
+    top: 90vh;
 }
 .chatbar-input {
     align-self: center;
@@ -70,9 +81,10 @@
 }
 .chat-response-container{
     position: fixed;
-    height: 56%;
-    width: 100%;
-    top: 146px;
+    height: 90vh;
+    width: 50%;
+    /* top: 146px; */
+    left: 50vw;
     flex-flow: wrap;
     overflow: scroll;
     /* overflow-y: scroll; */
@@ -94,12 +106,41 @@
     margin-right: 48px;
     align-self: flex-end;
     margin-left: 134px;
+    width: 30vw;
 }
 .spiner-responding-container{
     position: fixed;
-    top: 440px;
+    top: 76vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     width: 100%;
+    left: 68vw;
 }
+.App {
+text-align: center;
+}
+
+.file-content-container {
+    width: 45vw;     /* Sử dụng toàn bộ chiều rộng của viewport */
+    height: 72vh;    /* Sử dụng toàn bộ chiều cao của viewport */
+    overflow: auto;   /* Thêm thanh cuộn khi nội dung vượt quá kích thước container */
+    margin: 20px;     /* Khoảng cách giữa nội dung và viền màn hình */
+    padding: 10px;    /* Khoảng cách giữa nội dung và viền container */
+    border: 1px solid #ccc; /* Viền cho container */
+    white-space: pre-wrap; /* Giữ nguyên khoảng trắng và xuống dòng theo nội dung */
+    word-wrap: break-word; /* Tự động xuống dòng khi từ quá dài */
+    box-sizing: border-box; /* Bao gồm padding và viền vào kích thước phần tử */
+}
+
+pre {
+    text-align: left;
+    white-space: pre-wrap; /* Giữ nguyên khoảng trắng và xuống dòng theo nội dung */
+    word-wrap: break-word; /* Tự động xuống dòng khi từ quá dài */
+    margin: 0; /* Xóa khoảng cách mặc định */
+}
+p {
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+  
